@@ -38,3 +38,6 @@ for (let i = 0; i < bici.length; i++) {
     }
 }
 console.log(nomeBici, pesoMinore);
+
+// seleziono l'elemento e aggiungo il risultato a schermo
+document.getElementById('biciStampa').innerHTML = `${nomeBici} ${pesoMinore}`;
