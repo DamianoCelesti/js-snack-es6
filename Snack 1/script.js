@@ -28,7 +28,7 @@ const bici = [
 // creo ciclo for dove accedo a ogni elemento dell'array
 let pesoMinore = bici[0].peso;
 let nomeBici = bici[0].nome;
-for (let i = 0; i < bici.length; i++) {
+for (let i = 1; i < bici.length; i++) {
 
     //faccio il confronto e se vero salvo nella variabile
     if (bici[i].peso < pesoMinore) {
